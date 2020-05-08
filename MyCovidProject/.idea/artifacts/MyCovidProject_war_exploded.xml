@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="MyCovidProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyCovidProject_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyCovidProject" />
+          <element id="library" level="application" name="world" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MyCovidProject/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>

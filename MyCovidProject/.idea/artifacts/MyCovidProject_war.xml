@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="MyCovidProject:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyCovidProject_war</output-path>
+    <root id="archive" name="MyCovidProject_war.war">
+      <element id="artifact" artifact-name="MyCovidProject:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
